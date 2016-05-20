@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $.ajax({
-        url:  "https://api.github.com/users/miketayo1"
+        url:  "https://api.github.com/users/a"
     }).then(function(data) {
-       console.log(id);
+       console.log(data);
        $('.user id').append(data.id)
        $('.avatar_url.').append(data.avatar_url);
     });
